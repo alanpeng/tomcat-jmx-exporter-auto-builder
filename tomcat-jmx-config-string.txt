@@ -1,0 +1,1 @@
+JAVA_OPTS="$JAVA_OPTS -javaagent:/usr/local/tomcat/jmx_prometheus_javaagent.jar=$JMX_PORT:/usr/local/tomcat/tomcat-jmx-exporter.yml"
